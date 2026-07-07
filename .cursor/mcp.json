@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "MPP-MCP-SNOW": {
+      "url": "https://mckinsey.service-now.com/sncapps/mcp-server/mcp/servicenow_itsm_mcp_server",
+      "auth": {
+        "CLIENT_ID": "${env:SERVICENOW_MCP_CLIENT_ID}",
+        "CLIENT_SECRET": "${env:SERVICENOW_MCP_CLIENT_SECRET}",
+        "scopes": ["useraccount"]
+      }
+    }
+  }
+}
