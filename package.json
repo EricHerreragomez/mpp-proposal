@@ -1,0 +1,16 @@
+{
+  "name": "mpp-slack-assistant",
+  "version": "1.0.0",
+  "description": "MPP Support Assistant for Slack, backed by the Anthropic API and a 3-layer doc architecture.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.19.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
