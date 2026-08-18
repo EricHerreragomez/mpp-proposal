@@ -1,0 +1,1 @@
+This repo is a Slack bot that answers My Product Portal (MPP) support questions using the Anthropic API. Business logic lives in docs/02-decision-engine.md and must never be duplicated or reworded inside src/ code — code should only load and pass these docs as context, never hardcode governance rules in JS.
