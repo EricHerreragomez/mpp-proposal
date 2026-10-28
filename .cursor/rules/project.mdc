@@ -1,0 +1,10 @@
+---
+description: MPP Slack Assistant project rules
+alwaysApply: true
+---
+- This is a Python Slack Bolt app (Socket Mode) that answers My Product Portal (MPP) questions using the Claude API.
+- Never hardcode secrets. Read everything from .env via python-dotenv.
+- All bot answers must be grounded in /knowledge. Do not add business rules in code; they belong in knowledge/decision_engine.md.
+- Always reply in the thread (thread_ts) of the original message.
+- Keep functions small; put LLM logic in assistant.py and Slack handlers in app.py.
+- Log errors, never log message contents containing user data.
